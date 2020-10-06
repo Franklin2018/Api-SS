@@ -12,6 +12,9 @@ app.listen( app.get('port'), ()=> {
 });
 
 //routes
+app.get('/', function(req, res){
+    res.send('Bienvenido a mi api Rest con MySql');
+});
 require('./routes/cliente_Routes') (app);
 require('./routes/establecimiento_Router')(app);
 
