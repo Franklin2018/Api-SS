@@ -1,0 +1,18 @@
+{
+  "name": "api_sistema_seguro",
+  "version": "1.0.0",
+  "description": "API-REST para simular un ERP de un sustema de seguros",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Franklin Omar Caceres Jimenez",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1"
+  }
+}
