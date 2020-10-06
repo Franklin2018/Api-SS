@@ -4,7 +4,7 @@
   "description": "API-REST para simular un ERP de un sustema de seguros",
   "main": "index.js",
   "scripts": {
-    "start": "node ."
+    "start": "node src/app.js"
   },
   "keywords": [],
   "author": "Franklin Omar Caceres Jimenez",
