@@ -15,7 +15,7 @@ let clienteModel = {};
 clienteModel.getClientes = (callback)=> {
     if (mysqlconection){
         mysqlconection.query(
-             'SELECT * FROM cliente wwhere CI ORDER BY codigo',
+             'SELECT * FROM cliente ORDER BY codigo',
                 (err, rows)=>{
                 if (err){
                  throw err;
